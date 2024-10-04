@@ -95,7 +95,7 @@ export const ImageMasonryLayout = ({
                         height={item.src.height}
                         layout='responsive'
                         objectFit='cover'
-                        className='cursor-pointer'
+                        className='cursor-pointer object-cover'
                       />
                     ) : (
                       <img

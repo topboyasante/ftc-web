@@ -84,7 +84,7 @@ function Landing() {
         <div className='lg:w-5/12'>
           {isSuccess && showLiveEvents?.length === 0 ? null : (
             <ul className='mt-10 flex-1 grid md:grid-cols-2 grid-cols-1 h-fit gap-7'>
-              {showLiveEvents?.slice(0, 4).map((event, index) => (
+              {showLiveEvents?.slice(0, 4)?.map((event, index) => (
                 <PostCard item={event} key={index} />
               ))}
             </ul>

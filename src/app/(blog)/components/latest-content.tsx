@@ -37,7 +37,7 @@ export function LatestContent({ type }: { type: "Events" | "Posts" }) {
           "lg:grid-cols-4": contentLength && contentLength >= 4,
         })}
       >
-        {content?.slice(0, 4).map((item, index) => (
+        {content?.slice(0, 4)?.map((item, index) => (
           <li key={index} className='list-none'>
             <PostCard key={index} item={item} content_length={contentLength} />
           </li>

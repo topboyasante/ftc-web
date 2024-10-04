@@ -20,6 +20,15 @@ export function FloatingButton() {
   const shareLink = "https://www.freethecitizens.org/";
 
   const SHARE_LINKS_DATA = [
+    // {
+    //   icon: (
+    //     <button onClick={handleShare} className='md:hidden block'>
+    //       <Share2 className='!text-2xl' />
+    //     </button>
+    //   ),
+    //   type: "share",
+    // },
+
     {
       icon: (
         <WhatsappShareButton url={shareLink}>
@@ -46,23 +55,23 @@ export function FloatingButton() {
     },
   ];
 
-  function handleShare() {
-    if (!shareLink) return;
+  // function handleShare() {
+  //   if (!shareLink) return;
 
-    const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+  //   const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
 
-    try {
-      if (isMobile && navigator?.share) {
-        navigator.share({
-          url: shareLink,
-        });
-      } else {
-        alert("Link copied!");
-      }
-    } catch (error) {
-      console.log(error);
-    }
-  }
+  //   try {
+  //     if (isMobile && navigator?.share) {
+  //       navigator.share({
+  //         url: shareLink,
+  //       });
+  //     } else {
+  //       alert("Link copied!");
+  //     }
+  //   } catch (error) {
+  //     console.log(error);
+  //   }
+  // }
 
   const toggleMenu = () => setIsOpen(!isOpen);
 
@@ -119,6 +128,7 @@ export function FloatingButton() {
                     whileHover={{ scale: 1.1 }}
                     whileTap={{ scale: 0.95 }}
                     key={social.type}
+                    className='bg-primary text-primary-foreground rounded-full p-3'
                     rel='noreferrer'
                     target='_blank'
                     href={`https://${
@@ -129,7 +139,6 @@ export function FloatingButton() {
                   </motion.a>
                 ) : (
                   <motion.div
-                    onClick={handleShare}
                     role='button'
                     key={index}
                     className='bg-primary text-primary-foreground rounded-full p-3'
