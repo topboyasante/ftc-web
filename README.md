@@ -1,36 +1,77 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# #FreeTheCitizens - Stop Galamsey Awareness Application
 
-## Getting Started
+![Alt text](./public/about-project.png)
 
-First, run the development server:
+This project is a Next.js web application created to raise awareness about the negative impact of illegal mining ("galamsey") on water bodies in Ghana. The platform empowers users by sharing live updates, posts, media, and event information about the ongoing efforts to stop galamsey and its environmental damage. It includes social media integration, live updates, and a gallery of images related to the cause.
+
+## Table of Contents
+
+- [Highlights](#highlights)
+- [Technologies](#technologies)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Steps to Reproduce](#steps-to-reproduce)
+- [License](#license)
+
+## Highlights
+
+- **Live Updates**: Display live events and news related to anti-galamsey efforts.
+- **Social Sharing**: Integrated buttons for sharing updates on Twitter, WhatsApp, and Facebook.
+- **Media Gallery**: Browse through photos showing the impact of galamsey on water bodies.
+- **Real-time Posts**: Users can view the latest news and posts on galamsey protests and related activities.
+
+## Technologies
+
+- **Next.js**: React framework used for both frontend and backend.
+- **Tanstack Query**: For data fetching
+- **Framer Motion**: Animation library for smooth transitions.
+- **Tailwind CSS**: Utility-first CSS framework used for styling.
+
+## Installation
+
+Follow these steps to set up and run the application on your local machine.
+
+### Prerequisites
+
+- Node.js
+- npm or yarn
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/ftc-org/ftc-web
+cd ftc-web
+```
+
+### Install Dependencies
+
+```bash
+# If using npm
+npm install
+# If using yarn
+yarn install
+```
+
+### Run Dev server
 
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Contributors
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+We would like to acknowledge the following contributors who helped build this project:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **[Yeboah Nana Osei](https://github.com/yeboahnanaosei)**
+- **[Kwame Junior](https://github.com/quamejnr)**
+- **[Topboy Asante ](https://github.com/topboyasante)**
+- **[Saviour Gidi ](https://github.com/saviour123)**
+- **[Albert Dugba ](https://github.com/albertdugba)**
+- **[Bright Kwaku ](https://github.com/kwekujasper)**
+- **[Cryptic Warden ](https://github.com/crypticwarden)**
+- **Contributor Name** - Role or Contribution
+- **Contributor Name** - Role or Contribution
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+If you would like to contribute, feel free to fork the repository and submit a pull request.
