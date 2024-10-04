@@ -97,7 +97,12 @@ function UpdateItem({ item }: { item: Update }) {
         )}
       </AnimatePresence>
 
-      <div className='flex items-start mb-8 relative' id={String(item.id)}>
+      <div
+        role='tab'
+        className='flex items-start mb-8 relative'
+        id={String(item.id)}
+        tabIndex={1}
+      >
         <div className='absolute left-0 -mt-2 lg:ml-6 ml-2 flex items-center gap-2'>
           <div className='size-[10px] bg-orange-500 rounded-full ring-4 ring-orange-200'></div>
           <div className='flex gap-1'>

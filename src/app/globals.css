@@ -57,6 +57,11 @@ body {
   list-style: decimal;
 }
 
+.Html__Wrapper a {
+  color: #a30f12;
+  text-decoration: underline;
+}
+
 .video-player div > video {
   border-radius: 10px;
 }
