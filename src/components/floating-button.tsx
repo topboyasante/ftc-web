@@ -71,7 +71,6 @@ export function FloatingButton() {
   //   } catch (error) {
   //     console.log(error);
   //   }
-  // }
 
   const toggleMenu = () => setIsOpen(!isOpen);
 

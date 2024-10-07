@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    images: [{ url: "/images/default.jpeg" }],
+    images: [{ url: "/images/default.jpg" }],
   },
   openGraph: {
     title: "#FreeTheCitizens",
@@ -30,12 +30,12 @@ export const metadata: Metadata = {
     siteName: "#FreeTheCitizens",
     images: [
       {
-        url: "/images/default.jpeg",
+        url: "/images/default.jpg",
         width: 800,
         height: 600,
       },
       {
-        url: "/images/default.jpeg",
+        url: "/images/default.jpg",
         width: 1800,
         height: 1600,
         alt: "#stoGalamsey",
